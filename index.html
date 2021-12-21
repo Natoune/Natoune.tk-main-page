@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8fba81c92b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js" integrity="sha512-CmlPTWm5+a1Gt2YSNk2rGZVvbH3Zge6imS7M4/vrhC8d+A1RcehmLxWMqUdv8aEu7pwfTo74EtnrR+8Cf8KdCA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Mes Projets</title>
+    <style>
+        *::selection {
+            color: #040d21;
+            background: #fbf2de;
+        }
+
+        *::-moz-selection {
+            color: #040d21;
+            background: #fbf2de;
+        }
+
+        * {
+            scrollbar-color: #fbf2de #040d21;
+            scrollbar-width: thin;
+        }
+
+        body {
+            text-align: center;
+            background: #040d21;
+            color: #fff;
+            font-family: Helvetica, Arial;
+            font-size: 145%;
+            overflow-x: hidden;
+        }
+
+        #animated-background {
+            background: #040d21;
+            position: absolute;
+            display: block;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 115%;
+            }
+
+            #animated-background {
+                height: 170%;
+            }
+        }
+
+        .normal {
+            position: relative;
+            z-index: 15;
+        }
+
+        .logo {
+            position: relative;
+            float: left;
+            width: 10% !important;
+        }
+
+        .l-ad {
+            cursor: default;
+        }
+
+        .a {
+            position: relative;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 0;
+            font-size: 110%;
+        }
+        
+        .a:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 8px;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            transition: width 500ms ease;
+        }
+        
+        .a:hover:after {
+            width: 100%;
+        }
+
+        p {
+            font-size: 105%;
+            color: darkgray;
+        }
+
+        img {
+            width: 400px;
+            margin-bottom: 4%;
+        }
+
+        .bottom {
+            margin-top: 6%;
+            z-index: 14;
+            position: relative;
+        }
+
+        .bottom a {
+            font-size: 85%;
+            color: lightgrey;
+        }
+
+        .bottom a:after {
+            background: lightgrey;
+        }
+
+        #rio {
+            position: relative;
+            width: 8%;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animated-background"></canvas>
+
+    <div class="normal">
+        <img class="logo" src="//natoune.tk/natoune.png"><br/>
+        <c url="http://gg.gg/x2mnp"></c>
+        <h1 style="margin-top:7%;margin-bottom:4%">Mes Projets</h1>
+        <a class="a" href="//pixelbot.tk" target="_blank">PixelBot</a>
+        <p>PixelBot est un Bot Discord utilitaire 100% Français et Gratuit.</p>
+        <a class="l-ad" href="https://racingorchestra.com/jzncrhjcyb?key=41f43203819f2c281d521fa7502c4aa1" target="_blank"><img src="https://acdmufyyhq.cloudimg.io/v7/natoune.tk/pixelbot.png?width=400&cch"></a>
+        <br/>
+        <c url="https://shorturl.at/kEILU"></c>
+        <a class="a" href="//riponia.tk" target="_blank">Riponia</a>
+        <p>Riponia est un Serveur Minecraft PvP / Faction Moddée !</p>
+        <a class="l-ad" href="https://racingorchestra.com/jzncrhjcyb?key=41f43203819f2c281d521fa7502c4aa1" target="_blank"><img src="https://acdmufyyhq.cloudimg.io/v7/natoune.tk/riponia.png?width=400"></a>
+        <br/>
+        <c url="https://soo.gd/jO8c"></c>
+        <a class="a" href="//cashlink.ml" target="_blank">CashLink</a>
+        <p>Raccourcissez vos urls et Gagnez de l'argent !</p>
+        <a class="l-ad" href="https://racingorchestra.com/jzncrhjcyb?key=41f43203819f2c281d521fa7502c4aa1" target="_blank"><img src="https://acdmufyyhq.cloudimg.io/v7/natoune.tk/cashlink.png?width=400"></a>
+        <br/>
+        <c url="https://gcc.gl/wyqk3"></c>
+        <a class="a" href="//natoune.tk/Kenting_Simulator">Kenting Simulator</a>
+        <p>C'est Kentinnnnnnnngggggggg</p>
+        <a class="l-ad" href="https://racingorchestra.com/jzncrhjcyb?key=41f43203819f2c281d521fa7502c4aa1" target="_blank"><img src="/Kenting_Simulator/assets/background.png"></a>
+        <br/>
+    </div>
+    <div class="bottom">
+        <h1>Moi.</h1>
+        <a class="a" href="//github.com/Natoune" target="_blank"><i class="fab fa-github"></i>&nbsp;&nbsp;Github</a><br/>
+        <a class="a" id="discord" href="#discord"><i class="fab fa-discord"></i>&nbsp;&nbsp;Discord</a><br/>
+        <a class="a" href="//www.youtube.com/channel/UCmiUA3YW05-F1rWzhDZMu_w" target="_blank"><i class="fab fa-youtube"></i>&nbsp;&nbsp;YouTube<br/>
+        <a class="a" href="//www.twitter.com/Nat0une" target="_blank"><i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter<br/>
+        <a class="a" href="mailto:contact@natoune.tk"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Contact (mail)</a><br/><br/>
+        <a class="a" href="//natoune.tk/downloads"><i class="fas fa-cloud-download-alt"></i>&nbsp;&nbsp;Téléchargements Divers</a><br/><br/>
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="natoune" data-color="#1f283c" data-emoji="☕"  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+   
+        <br/>
+        <img id="rio" src="//natoune.tk/cat_walk2.svg">
+        <script>
+            let rio = document.getElementById("rio");
+            let frame = true;
+            let oldX = 0;
+            document.onmousemove=()=>{
+                let mouseX = event.clientX;
+                rio.style.left = "calc("+mouseX+"px - "+document.body.offsetWidth/2+"px)";
+                if (mouseX > oldX) {
+                    setTimeout(()=>{
+                        rio.style.transform = 'scaleX(-1)';
+                    }, 50);
+                } else {
+                    setTimeout(()=>{
+                        rio.style.transform = '';
+                    }, 50);
+                }
+                oldX = mouseX;
+            }
+            setInterval(()=>{
+                if (frame) rio.setAttribute('src', '//natoune.tk/cat_walk1.svg')
+                else rio.setAttribute('src', '//natoune.tk/cat_walk2.svg');
+                frame = !frame;
+            }, 200);
+        </script>
+    </div>
+    
+    <script>
+        var granimInstance = new Granim({
+            element: '#animated-background',
+            direction: 'left-right',
+            isPausedWhenNotInView: true,
+            states : {
+                "default-state": {
+                    gradients: [
+                        ['#020610', '#040d21'],
+                        ['#040d21', '#0f192d'],
+                        ['#0f192d', '#20293d']
+                    ]
+                }
+            }
+        });
+        document.onscroll=()=> {
+            document.getElementById('animated-background').style.height = 'calc(100% + '+window.scrollY+'px)';
+        }
+    </script>
+    <script>
+        const container = document.querySelector(".normal");
+        const text = container.querySelector("h1");
+
+        function shadow(e) {
+            const { offsetWidth: width, offsetHeight: height } = container;
+            let { offsetX: x, offsetY: y } = e;
+            if (this !== e.target) {
+                x = x + e.target.offsetLeft;
+                y = y + e.target.offsetTop;
+            }
+            const movement = 100;
+            const xMovement = (x / width) * movement - movement / 2;
+            const yMovement = (y / width) * movement - movement / 6;
+            text.style.textShadow = `
+            ${xMovement}px ${yMovement}px 0 #020610,
+            ${xMovement * -1}px ${yMovement}px 0 #20293d`;
+        }
+
+        container.addEventListener("mousemove", shadow);
+    </script>
+    <script>
+        d=document.getElementById('discord');
+        d.onmouseover=()=>d.innerHTML='<i class="fab fa-discord"></i>&nbsp;&nbsp;Nat#9703';
+        d.onmouseout=()=>d.innerHTML='<i class="fab fa-discord"></i>&nbsp;&nbsp;Discord';
+    </script>
+</body>
+</html>
